@@ -8,8 +8,8 @@
     </head>
     <body>
         
-        <p class="lead text-center">List of all forks of user: {{ fork_username }} and repo: {{ fork_repo }}</p> 
-        <div class="page-content page-container" id="page-content">
+        <h4 class="text-center mb-5">List of all forks of user: {{ data.fork_username }} and repo: {{ data.fork_repo }}</h4> 
+        <div class="page-content page-container mt-0" id="page-content">
             <div class="padding">
                 <div class="row">
                     <div class="col-12">
@@ -20,10 +20,10 @@
                                     <div class="list-item" data-id="19">
                                         <div><a href="#" data-abc="true"></a><span class="w-48 avatar gd-warning">{{ fork.owner.login[0] }}</span></a></div>
                                         <div class="flex"> <a href="#" class="item-author text-color name" data-abc="true">{{ fork.owner.login }}</a>
-                                            <div class="item-except text-muted text-sm h-1x">For what reason would it be advisable for me to think about business content?</div>
+                                            <div class="item-except text-muted text-sm h-1x">A user who forked {{ data.fork_repo }} repo from of user {{ data.fork_username }} </div>
                                         </div>
                                         <input type="hidden" name="username" value='{{ fork.owner.login}}'>
-                                        <button type="submit" class="btn btn-dark text-light follow">+ follow</button>
+                                        <button type="submit" class="btn btn-dark text-light follow align-right">+ follow</button>
                                     </div>
                                 </form>
                             {% endfor %}

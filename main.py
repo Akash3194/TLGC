@@ -10,7 +10,7 @@ app = Flask(__name__)
 def follow():
 
     if username == "":
-        return '<h1 style="color: red;">Please add you github credentials in config.py</h1>'
+        return '<h4 style="color: red;">Please add github credentials in <b>config.py</b> first</h4>'
 
     # print(dir(request))
     user = request.form.get('username')
@@ -34,6 +34,8 @@ def start():
 
 
 if __name__ == '__main__':
+
+    print(fork_username, fork_repo)
 
     api_url = "https://api.github.com/"
     forks_endpoint = "repos/{}/{}/forks"
