@@ -17,7 +17,7 @@ Make sure Python3 and virtualenv is installed on your sysytem.
 * Create a Virtual Environment in the folder and activate it, Code below is creating virtual env with tlgc name, you can choose any name
 ``` virtualenv tlgc```
 
-* if you are on windows activate is by
+* if you are on windows activate it by
  ``` .\tlgc\Scripts\activate ```
  
  * if you are on linux you can activate it by
@@ -29,7 +29,7 @@ Make sure Python3 and virtualenv is installed on your sysytem.
 * run localhost server using
 ``` python main.py ```
 
-# Your Server must be running now, you can check it on browser by typing [https://127.0.0.1:5000](https://127.0.0.1:5000) and hitting enter
+## Your Server must be running now, you can check it on browser by typing [https://127.0.0.1:5000](https://127.0.0.1:5000) and hitting enter
 * A list of all fork users will be coming with a follow button
 * Before following someone ``` Make Sure to add your correct username and password in config.py file in the folder```.
 * you can also change repository or target user from the config,py file
