@@ -30,7 +30,7 @@ def start():
     fb_endpoint = forks_endpoint.format(fork_username, fork_repo)
     forks = requests.get(join(api_url, fb_endpoint))
     
-    return render_template("index.html", data= {"forks":forks.json(), "Username": "akash3194", "Password": "j@@p@@9c#ina"})
+    return render_template("index.html", data= {"forks":forks.json(), "fork_username": fork_username, "fork_repo": fork_repo})
 
 
 if __name__ == '__main__':
