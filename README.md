@@ -7,7 +7,7 @@ Make sure Python3 and virtualenv is installed on your sysytem.
 * To install Virtualenv open your terminal or cmd and run the code below
  ``` pip install virtualenv ```
 
-# [Steps to use it]
+# Steps to use it
 * Now git clone this project on your local system using
 ```git clone https://github.com/Akash3194/TLGC.git```
 
@@ -21,10 +21,7 @@ Make sure Python3 and virtualenv is installed on your sysytem.
  ``` .\tlgc\Scripts\activate ```
  
  * if you are on linux you can activate it by
- ``` source tlgc/bin/activate 
-    or
-    source tlgc/Scripts/activate
-```
+ ``` source tlgc/bin/activate```
 
 * now install python required libraries using
 ``` pip install -r requirements.txt ```
@@ -32,7 +29,7 @@ Make sure Python3 and virtualenv is installed on your sysytem.
 * run localhost server using
 ``` python main.py ```
 
-[Your Server must be running now, you can check it on browser by typing [https://127.0.0.1:5000](https://127.0.0.1:5000) and hitting enter]
+# Your Server must be running now, you can check it on browser by typing [https://127.0.0.1:5000](https://127.0.0.1:5000) and hitting enter
 * A list of all fork users will be coming with a follow button
-* Before following someone Make Sure to add your correct username and password in config.py file in the folder.
+* Before following someone ``` Make Sure to add your correct username and password in config.py file in the folder```.
 * you can also change repository or target user from the config,py file
